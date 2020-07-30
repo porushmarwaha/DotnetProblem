@@ -1,7 +1,8 @@
+.vscode
 ConsoleUI/obj
 ConsoleUI/ConsoleUI.csproj
 StringLibrary/StringLibrary.csproj
 StringLibrary/obj
 StringLibrary/bin
 Program6.sln
-.vscode
+ConsoleUI/bin
