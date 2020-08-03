@@ -14,7 +14,7 @@ namespace ConsoleUI
                 {"Shoes 100.00"},
                 {"MiniDragon 50.4"}
             };
-            splitClassObject.SplitMethod(lunaList);
+            splitClassObject.CallingSplitMethod(lunaList);
             Console.WriteLine($"Sum - {splitClassObject.ReturnCalculatedSum()}");
             Console.WriteLine($"Result String - {splitClassObject.ReturnStringMethod()}" );
         }
