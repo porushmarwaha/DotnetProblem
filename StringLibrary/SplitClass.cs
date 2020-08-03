@@ -7,7 +7,7 @@ namespace StringLibrary
     {
         private double sum = 0;
         private string resultString = "";
-        public void SplitMethod (List<string> lunaList){
+        private void SplitMethod (List<string> lunaList){
             var stringList = new List<String>();
             
             var decimalList = new List<double>();
@@ -30,6 +30,9 @@ namespace StringLibrary
         private string StringProcessMethod(List<string> stringList){
             stringList.ForEach(element => resultString += element +" ");
             return resultString.Trim();
+        }
+        public void CallingSplitMethod(List<string> lunaList){
+            SplitMethod(lunaList);
         }
         public  string ReturnStringMethod(){
             return resultString;
